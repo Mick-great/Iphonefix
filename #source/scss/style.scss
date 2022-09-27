@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 15px 15px 15px 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog__title {
+    display: flex;
+}
+
+.catalog__text {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.catalog__text {
+    text-decoration: none;
+    margin-left: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.catalog__text-soc {
+    list-style-type: none;
+}
+
+.fone {
+    background-color: #DCE5E2;
+    width: 1280px;
+    height: 647px;
+    border-radius: 32px;
+    position: relative;
+}
+
+.phone {
+    margin-left: 650px;
+    margin-top: -550px;
+    position: absolute;
+}
+
+.sales__title {
+    position: absolute;
+    height: 140px;
+    left: 7.21%;
+    right: 17.05%;
+    top: calc(70% - 140px/2 - 60px);
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.sales__text {
+    position: absolute;
+    height: 39px;
+    left: 7.21%;
+    right: 20.01%;
+    top: calc(70% - 39px/2 + 48.5px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+.sales__button {
+    height: 50px;
+    width: 170px;
+    /* -webkit-box-sizing: border-box; */
+    /* box-sizing: border-box; */
+    position: absolute;
+    /* height: 50px; */
+    /* left: 0%; */
+    /* right: 0%; */
+    /* top: 0px; */
+    border: 1px solid #000000;
+    border-radius: 200px;
+    margin-left: 60px;
+    margin-top: -105px;
+}
+
+.sales__line {
+    width: 10px;
+    height: 20px;
+}
+
+.sales__line-1 {
+    content: '';
+    width: 194px;
+    height: 2px;
+    left: calc(50% - 194px/2 - 228px);
+    top: calc(50% - 2px/2);
+    background: #000000;
+    border-radius: 0px;
+}
+
+.sales__line-2 {
+    content: '';
+    width: 194px;
+    height: 2px;
+    left: calc(50% - 194px/2 - 228px);
+    top: calc(50% - 2px/2);
+    background: #000000;
+    border-radius: 0px;
+    margin-left: 250px;
+}
+
+.sales__line-3 {
+    content: '';
+    width: 194px;
+    height: 2px;
+    left: calc(50% - 194px/2 - 228px);
+    top: calc(50% - 2px/2);
+    background: #000000;
+    border-radius: 0px;
+    margin-left: 480px;
+}
+
+.sales__line-soc {
+    margin-left: 280px;
+    margin-top: -25px;
+    position: absolute;
+}
+
+.sales__soc {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -22px;
+}
+
+.category__title {
+    width: 780px;
+    height: 53px;
+    left: calc(50% - 780px/2);
+    top: calc(50% - 53px/2 - 11.5px);
+    margin-left: 250px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.category__text {
+    margin-left: 135px;
+    width: 528px;
+    margin-top: 10px;
+    /* height: 34px; */
+    /* left: calc(50% - 314px); */
+    /* top: calc(50% - 17px + 41px); */
+    font-family: "Readex Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-left: 380px;
+}
+
+.cart1 {
+    position: relative;
+    /* left: 130px; */
+    width: 608px;
+    height: 452px;
+    /* padding: 44px 32px; */
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.cart2 {
+    position: relative;
+    /* left: 130px; */
+    width: 295px;
+    height: 652px;
+    /* padding: 44px 32px; */
+    -webkit-box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.cart3 {
+    margin-left: 15px;
+    position: relative;
+    /* left: 130px; */
+    width: 30-px;
+    height: 652px;
+    /* padding: 44px 32px; */
+    -webkit-box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+
+.main__theme {
+    display: flex;
+}
+
+.images {
+    margin-top: 125px;
+}
